@@ -65,15 +65,15 @@ nav {
   margin: 5px;
 }
 
-@media screen and (max-width:1334px){
+@media screen and (max-width:400px){
       .nav-links{
-      width: 100%;
+      width: 50%;
 
     }
 }
-@media screen and (max-width:1334px){
+@media screen and (max-width:400px){
   .logo{
-    width 100%;
+    width 50%;
   }
 }
 
