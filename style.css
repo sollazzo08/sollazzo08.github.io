@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-weight: normal;
+  font-size: 22px;
+  color: rgb(108, 137, 224);
+  text-transform: uppercase;
+}
+
+.facebook {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 5px;
+  top: 234px;
+}
+
+.fb-vector {
+  position: absolute;
+  left: 1.56px;
+  right: 1.56px
+  top: 1.56px;
+  bottom: 2.15px;
+  background: #3B5998;
+}
+
+nav {
+  justify-content: space-around;
+  background-color: #1b1b18;
+  min-height: 8vh;
+  align-items: center;
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(108, 137, 224);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.burger {
+
+}
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(108, 137, 224);
+  color: rgb(108, 137, 224);
+  margin: 5px;
+}
+
+@media screen and (max-width:1024px){
+      .nav-links{
+      width: 100%;
+
+    }
+}
