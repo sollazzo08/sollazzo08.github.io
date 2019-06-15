@@ -65,13 +65,13 @@ nav {
   margin: 5px;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:1334px){
       .nav-links{
       width: 50%;
 
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:1334px){
   .logo{
     width 50%;
   }
