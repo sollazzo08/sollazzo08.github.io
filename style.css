@@ -61,10 +61,10 @@ html, body {
 
 .fa-java {
 
-  color: #f89820;
+  color: red;
 
 }
-.fa-js, .fa-css3, .fa-bootstrap, .fa-html5, .fa-java, .fa-bold{
+.fa-js, .fa-css3, .fa-bootstrap, .fa-html5, .fa-java, .fa-bold, .fa-python, .fa-file-pdf{
   font-size: 4em;
   margin: .4em;
 }
