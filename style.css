@@ -7,8 +7,14 @@
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
-}
 
+}
+html, body {
+  height:100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
 *,
 *::before,
 *::after {
@@ -25,12 +31,15 @@ html {
 
 .navbar {
 
-  padding: .10rem;
+  padding: .8rem;
 
 }
 
 .navbar-nav li {
-  padding-right: 40px;
+  padding-right: 11px;
+}
+.navlink {
+  font-size: 1.1em; !important;
 }
 
 .fa-js {
@@ -60,10 +69,6 @@ html {
   margin: .4em;
 }
 
-.social a {
-  font-size: 4.5em;
-  padding: 3rem;
-}
 
 .fa-facebook {
   color: #3b5998;
@@ -93,7 +98,7 @@ color:#d5d5d5;
 }
 
 body {
-  background-color: #F8F8F8;
+  background-color: #fff;
   color: #343a40;
 }
 
@@ -102,11 +107,15 @@ body {
   border-style: solid;
   border-color: #343a40;
   border-width: 5px;
-  padding-top: 92px;
+  padding-top: 90px;
   padding-bottom: 92px;
   padding-right: .5px;
   padding-left: .5px;
   border-width:medium;
+}
+
+.connect {
+  font-size: 25px;
 }
 
 @media (min-width: 576px) {
