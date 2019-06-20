@@ -114,8 +114,9 @@ body {
   border-width:medium;
 }
 
-
-
+.c-logo a{
+  margin .4em;
+}
 .connect {
   font-size: 25px;
 }
