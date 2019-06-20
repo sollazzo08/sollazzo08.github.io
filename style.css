@@ -91,6 +91,24 @@ html {
 color:#d5d5d5;
 
 }
+
+body {
+  background-color: #F8F8F8;
+  color: #343a40;
+}
+
+.mypic a {
+
+  border-style: solid;
+  border-color: #343a40;
+  border-width: 5px;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  padding-right: .5px;
+  padding-left: .5px;
+  border-width:medium;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
