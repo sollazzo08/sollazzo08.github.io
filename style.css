@@ -67,7 +67,11 @@ html, body {
   color: red;
 
 }
-.fa-js, .fa-css3, .fa-bootstrap, .fa-html5, .fa-java, .fa-bold, .fa-python, .fa-file-pdf{
+
+.fa-react {
+  color: #61DBFB;
+}
+.fa-js, .fa-css3, .fa-bootstrap, .fa-html5, .fa-java, .fa-bold, .fa-python, .fa-file-pdf, .fa-react{
   font-size: 4em;
   margin: .4em;
 }
@@ -107,9 +111,9 @@ body {
 
 .mypic a {
 
- 
- 
- 
+
+
+
   padding-top: 90px;
   padding-bottom: 92px;
   padding-right: .5px;
@@ -124,7 +128,7 @@ body {
   padding-bottom: 92px;
   padding-right: .5px;
   padding-left: .5px;
-  
+
 
 }
 
