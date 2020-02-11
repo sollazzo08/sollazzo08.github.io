@@ -24,6 +24,7 @@ html, body {
   box-sizing: inherit;
 }
 
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -32,17 +33,12 @@ html, body {
   margin-left: auto;
 }
 
-.navbar {
-
-  padding: .8rem;
-
+.navbar-brand {
+  font-size: 35px;
 }
 
-.navbar-nav li {
-  padding-right: 10px;
-}
-.navlink {
-  font-size: 1.1em; !important;
+.nav-link {
+  font-size: 25px;
 }
 
 .fa-js {
@@ -63,15 +59,13 @@ html, body {
 }
 
 .fa-java {
-
   color: red;
-
 }
 
 .fa-react {
   color: #61DBFB;
 }
-.fa-js, .fa-css3, .fa-bootstrap, .fa-html5, .fa-java, .fa-bold, .fa-python, .fa-file-pdf, .fa-react{
+.fa-js, .fa-css3, .fa-bootstrap, .fa-html5, .fa-java, .fa-bold, .fa-python, .fa-file-pdf, .fa-react, .fa-git{
   font-size: 4em;
   margin: .4em;
 }
@@ -94,39 +88,8 @@ html, body {
   color: #dd4b39;
 }
 
-.fa-github {
+.fa-git{
   color: #211f1f;
-}
-
-.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-google:hover, .fa-github:hover {
-
-color:#d5d5d5;
-
-}
-
-body {
-  background-color: #fff;
-  color: #343a40;
-}
-
-.mypic a {
-
-  padding-top: 90px;
-  padding-bottom: 92px;
-  padding-right: .5px;
-  padding-left: .5px;
-
-}
-
-.c-plus-plus-pic a {
-  font-size: 4em;
-  margin: .4em;
-  padding-top: 90px;
-  padding-bottom: 92px;
-  padding-right: .5px;
-  padding-left: .5px;
-
-
 }
 
 .connect {
