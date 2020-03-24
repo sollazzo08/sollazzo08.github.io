@@ -12,11 +12,16 @@ html {
   -ms-overflow-style: scrollbar;
 
 }
+
+.caption {
+  font-size: 30px;
+}
+
 html, body {
   height:100%;
   width: 100%;
   font-family: 'Saira Semi Condensed', sans-serif;
-  color: #222;
+  background-image: linear-gradient(to right,rgba(32, 35, 36,1),rgba(208, 141, 59, 0.7));
 }
 *,
 *::before,
